@@ -205,6 +205,11 @@ cython_debug/
 # Temporary file for partial code execution
 tempCodeRunnerFile.py
 
+# Saídas opcionais de verificação e caches locais de renderização/kernel.
+resultados_teste/
+.jupyter_runtime/
+.mplconfig/
+
 # Ruff stuff:
 .ruff_cache/
 

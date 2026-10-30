@@ -1,0 +1,32 @@
+{
+  "config": {
+    "episodes": 20000,
+    "runs": 5,
+    "evaluation_episodes": 100,
+    "alpha": 0.6,
+    "alpha_decay": 0.01,
+    "alpha_power": 0.6,
+    "gamma": 0.99,
+    "epsilon_start": 1.0,
+    "epsilon_min": 0.005,
+    "epsilon_decay": 0.9995,
+    "max_steps": 200,
+    "rainy_probability": 0.6,
+    "seed": 2026,
+    "evaluation_seed": 1000000,
+    "validation_seed": 2000000,
+    "checkpoint_every": 1000,
+    "validation_episodes": 100,
+    "smoothing_window": 100
+  },
+  "gymnasium": "1.3.0",
+  "numpy": "2.5.4",
+  "pandas": "2.3.3",
+  "python": "3.13.13",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "desvio_padrao": "amostral (ddof=1)",
+  "politica_teste": "gulosa, epsilon=0, empates por menor índice",
+  "representante": "execução 1, definida antes do treinamento",
+  "mascara_acoes": false,
+  "reward_threshold_deterministico": 8
+}
